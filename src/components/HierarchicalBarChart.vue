@@ -55,37 +55,138 @@ export default {
       default: function() {
         return [
           {
-              Name:  "Canada", 
-              ValueBar: "33.9", 
-              "Average Life Expectancy": "80.7", 
-              "Area (1000 sq mi)": "3854.085",
-              "Continent": "America"
-        }, {
-            Name:  "US", ValueBar: "308.3", "Average Life Expectancy": "78.2", "Area (1000 sq mi)": "3784.191", "Continent": "America"
-        }, 
-        {
-            Name:  "Germany", ValueBar: "82.3", "Average Life Expectancy": "79.4", "Area (1000 sq mi)": "137.847", "Continent": "Europe"
-        }, 
-        { 
-            Name:  "Russia", ValueBar: "141.9", "Average Life Expectancy": "65.5", "Area (1000 sq mi)": "6601.668", "Continent": "Europe"
-        }, 
-        {
-             Name:  "Mexico", ValueBar: "108.4", "Average Life Expectancy": "76.06", "Area (1000 sq mi)": "758.449", "Continent": "America" }, 
-             { Name:  "Brazil", ValueBar: "193.3", "Average Life Expectancy": "71.99", "Area (1000 sq mi)": "3287.612", "Continent": "America" }, 
-             { Name:  "Spain", ValueBar: "46.9", "Average Life Expectancy": "80.9", "Area (1000 sq mi)": "195.365", "Continent": "Europe" }, 
-             { Name:  "France", ValueBar: "65.4", "Average Life Expectancy": "80.98", "Area (1000 sq mi)": "244.339", "Continent": "Europe" },
-             { Name:  "China", ValueBar: "1339", "Average Life Expectancy": "73", "Area (1000 sq mi)": "3705.407", "Continent": "Asia" },
-             { Name:  "Australia", ValueBar: "22.4", "Average Life Expectancy": "81.2", "Area (1000 sq mi)": "2969.907", "Continent": "Australia" },
-             { Name:  "UK", ValueBar: "62", "Average Life Expectancy": "79.4", "Area (1000 sq mi)": "93.800", "Continent": "Europe" },
-             { Name:  "Italy", ValueBar: "60.3", "Average Life Expectancy": "80.5", "Area (1000 sq mi)": "116.346", "Continent": "Europe" },
-             { Name:  "India", ValueBar: "1184", "Average Life Expectancy": "64.7", "Area (1000 sq mi)": "1236.085", "Continent": "Asia" },
-             { Name:  "Japan", ValueBar: "127.4", "Average Life Expectancy": "82.6", "Area (1000 sq mi)": "145.920", "Continent": "Asia" },
-             { Name:  "Iceland", ValueBar: "0.3", "Average Life Expectancy": "81.8", "Area (1000 sq mi)": "40.000", "Continent": "Europe" },
-             { Name:  "Portugal", ValueBar: "10.6", "Average Life Expectancy": "78.1", "Area (1000 sq mi)": "35.560", "Continent": "Europe" },
-             { Name:  "South Africa", ValueBar: "50", "Average Life Expectancy": "49.3", "Area (1000 sq mi)": "471.445", "Continent": "Africa" },
-             { Name:  "Egypt", ValueBar: "78.9", "Average Life Expectancy": "71.3", "Area (1000 sq mi)": "387.000", "Continent": "Africa" },
-             { Name:  "Sweden", ValueBar: "9.3", "Average Life Expectancy": "80.9", "Area (1000 sq mi)": "170.410", "Continent": "Europe" } 
-             ]
+            Name:  "Canada", 
+            ValueBar: "33.9", 
+            "Average Life Expectancy": "80.7", 
+            "Area (1000 sq mi)": "3854.085",
+            "Continent": "America",
+          }, {
+            Name:  "US",
+            ValueBar: "308.3",
+            "Average Life Expectancy": "78.2",
+            "Area (1000 sq mi)": "3784.191",
+            "Continent": "America",
+          }, 
+          {
+            Name:  "Germany",
+            ValueBar: "82.3",
+            "Average Life Expectancy": "79.4",
+            "Area (1000 sq mi)": "137.847",
+            "Continent": "Europe",
+          }, 
+          { 
+            Name:  "Russia",
+            ValueBar: "141.9",
+            "Average Life Expectancy": "65.5",
+            "Area (1000 sq mi)": "6601.668",
+            "Continent": "Europe",
+          }, 
+          {
+            Name:  "Mexico",
+            ValueBar: "108.4",
+            "Average Life Expectancy": "76.06",
+            "Area (1000 sq mi)": "758.449",
+            "Continent": "America",
+          }, 
+          {
+            Name:  "Brazil",
+            ValueBar: "193.3",
+            "Average Life Expectancy": "71.99",
+            "Area (1000 sq mi)": "3287.612",
+            "Continent": "America",
+          }, 
+          { 
+            Name:  "Spain",
+            ValueBar: "46.9",
+            "Average Life Expectancy": "80.9",
+            "Area (1000 sq mi)": "195.365",
+            "Continent": "Europe",
+          }, 
+          { 
+            Name:  "France",
+            ValueBar: "65.4",
+            "Average Life Expectancy": "80.98",
+            "Area (1000 sq mi)": "244.339",
+            "Continent": "Europe",
+          },
+          { 
+            Name:  "China",
+            ValueBar: "1339",
+            "Average Life Expectancy": "73",
+            "Area (1000 sq mi)": "3705.407",
+            "Continent": "Asia",
+          },
+          { 
+            Name:  "Australia",
+            ValueBar: "22.4",
+            "Average Life Expectancy": "81.2",
+            "Area (1000 sq mi)": "2969.907",
+            "Continent": "Australia",
+          },
+          { 
+            Name:  "UK",
+            ValueBar: "62",
+            "Average Life Expectancy": "79.4",
+            "Area (1000 sq mi)": "93.800",
+            "Continent": "Europe",
+          },
+          { 
+            Name:  "Italy",
+            ValueBar: "60.3",
+            "Average Life Expectancy": "80.5",
+            "Area (1000 sq mi)": "116.346",
+            "Continent": "Europe",
+          },
+          { 
+            Name:  "India",
+            ValueBar: "1184",
+            "Average Life Expectancy": "64.7",
+            "Area (1000 sq mi)": "1236.085",
+            "Continent": "Asia",
+          },
+          { 
+            Name:  "Japan",
+            ValueBar: "127.4",
+            "Average Life Expectancy": "82.6",
+            "Area (1000 sq mi)": "145.920",
+            "Continent": "Asia",
+          },
+          { 
+            Name:  "Iceland",
+            ValueBar: "0.3",
+            "Average Life Expectancy": "81.8",
+            "Area (1000 sq mi)": "40.000",
+            "Continent": "Europe",
+          },
+          { 
+            Name:  "Portugal",
+            ValueBar: "10.6",
+            "Average Life Expectancy": "78.1",
+            "Area (1000 sq mi)": "35.560",
+            "Continent": "Europe",
+          },
+          { 
+            Name:  "South Africa",
+            ValueBar: "50",
+            "Average Life Expectancy": "49.3",
+            "Area (1000 sq mi)": "471.445",
+            "Continent": "Africa",
+          },
+          { 
+            Name:  "Egypt",
+            ValueBar: "78.9",
+            "Average Life Expectancy": "71.3",
+            "Area (1000 sq mi)": "387.000",
+            "Continent": "Africa",
+          },
+          { 
+            Name:  "Sweden",
+            ValueBar: "9.3",
+            "Average Life Expectancy": "80.9",
+            "Area (1000 sq mi)": "170.410",
+            "Continent": "Europe",
+          } 
+        ]
       }
     }
   },
